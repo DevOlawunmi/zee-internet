@@ -1,14 +1,15 @@
 package co.uk.theinternet.stepDefinitions;
 
+import co.uk.theinternet.pages.BasePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitions {
+public class StepDefinitions extends BasePage {
 
     @Given("I navigate to the-internet.herokuapp.com")
 public void i_navigate_to_the_internet_herokuapp_com() {
-
+launchURL();
 }
 
     @When("I click on the {string}")
