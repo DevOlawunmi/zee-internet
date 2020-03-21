@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/co/uk/theinternet/features"},
         plugin = {"pretty", "json:target/report.json", "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-        glue = {"co/uk/theinternet/stepDefinitions"}
+        glue = {"co/uk/theinternet/hooks","co/uk/theinternet/stepDefinitions"}
 )
 public class TestRunner
 {

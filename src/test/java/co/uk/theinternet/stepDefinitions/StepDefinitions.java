@@ -23,7 +23,7 @@ public void i_navigate_to_the_internet_herokuapp_com() {
 
     @Then("I click the link to trigger a redirection")
     public void i_click_the_link_to_trigger_a_redirection() {
-        
+
     }
 
 }
