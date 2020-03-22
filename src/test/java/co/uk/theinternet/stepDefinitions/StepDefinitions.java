@@ -23,13 +23,14 @@ launchURL();
     }
 
     @Then("the {string} is displayed")
-    public void the_is_displayed(String string) {
-
+    public void the_is_displayed(String redirect) {
+redirectionPage.isCorrectURLDisplayed(redirect);
+redirectionPage.isPageTitleDisplayed();
     }
 
     @Then("I click the link to trigger a redirection")
     public void i_click_the_link_to_trigger_a_redirection() {
-
+redirectionPage.clickOnRedirectionLink();
     }
 
 }

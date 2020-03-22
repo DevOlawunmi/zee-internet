@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f88112-53cb-4e39-b68a-c2b874607c33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/RedirectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/StatusCodesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/RedirectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/pages/RedirectionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/theinternet/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584769743958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Redirect Link clicked">
+      <created>1584771024662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584771024662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,33 +130,38 @@
     <MESSAGE value="Step definitions generated" />
     <MESSAGE value="Browser successfully launched" />
     <MESSAGE value="URL successfully launched" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL successfully launched" />
+    <MESSAGE value="Redirect Link clicked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirect Link clicked" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584769743455">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584771024181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584769743455" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584770936473">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584771024181" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584853469179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584770936473" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584770936473">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584853469179" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584853469179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584770936473" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584770936473">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584853469179" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584853469177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584770936473" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584770936473">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584853469177" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584853469179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584770936473" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584769747284">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584853469179" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584771027489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584769747284" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584771027489" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584851787327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584851787327" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584770475865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
